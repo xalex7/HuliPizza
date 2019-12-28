@@ -13,6 +13,17 @@
 		0533B52423B1F153000B4FCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0533B52323B1F153000B4FCD /* Assets.xcassets */; };
 		0533B52723B1F153000B4FCD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0533B52623B1F153000B4FCD /* Preview Assets.xcassets */; };
 		0533B52A23B1F153000B4FCD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0533B52823B1F153000B4FCD /* LaunchScreen.storyboard */; };
+		0533B53623B2CDD3000B4FCD /* OrderListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0533B53523B2CDD3000B4FCD /* OrderListView.swift */; };
+		0533B53823B2D2FC000B4FCD /* MenuListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0533B53723B2D2FC000B4FCD /* MenuListView.swift */; };
+		0533B53A23B2D460000B4FCD /* ContentHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0533B53923B2D460000B4FCD /* ContentHeaderView.swift */; };
+		0533B53C23B538FF000B4FCD /* OrderRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0533B53B23B538FF000B4FCD /* OrderRowView.swift */; };
+		0533B53E23B53CD7000B4FCD /* MenuRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0533B53D23B53CD7000B4FCD /* MenuRowView.swift */; };
+		0533B54023B53DDD000B4FCD /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0533B53F23B53DDD000B4FCD /* RatingView.swift */; };
+		0533B54223B54064000B4FCD /* PageTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0533B54123B54064000B4FCD /* PageTitleView.swift */; };
+		0533B54423B5702D000B4FCD /* PizzaHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0533B54323B5702D000B4FCD /* PizzaHistoryView.swift */; };
+		0533B54623B57405000B4FCD /* HistoryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0533B54523B57405000B4FCD /* HistoryListView.swift */; };
+		0533B54823B5769C000B4FCD /* HistoryRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0533B54723B5769C000B4FCD /* HistoryRowView.swift */; };
+		0533B54A23B65C4B000B4FCD /* ListHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0533B54923B65C4B000B4FCD /* ListHeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +35,17 @@
 		0533B52623B1F153000B4FCD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0533B52923B1F153000B4FCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0533B52B23B1F153000B4FCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0533B53523B2CDD3000B4FCD /* OrderListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListView.swift; sourceTree = "<group>"; };
+		0533B53723B2D2FC000B4FCD /* MenuListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuListView.swift; sourceTree = "<group>"; };
+		0533B53923B2D460000B4FCD /* ContentHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentHeaderView.swift; sourceTree = "<group>"; };
+		0533B53B23B538FF000B4FCD /* OrderRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderRowView.swift; sourceTree = "<group>"; };
+		0533B53D23B53CD7000B4FCD /* MenuRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuRowView.swift; sourceTree = "<group>"; };
+		0533B53F23B53DDD000B4FCD /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
+		0533B54123B54064000B4FCD /* PageTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageTitleView.swift; sourceTree = "<group>"; };
+		0533B54323B5702D000B4FCD /* PizzaHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaHistoryView.swift; sourceTree = "<group>"; };
+		0533B54523B57405000B4FCD /* HistoryListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryListView.swift; sourceTree = "<group>"; };
+		0533B54723B5769C000B4FCD /* HistoryRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryRowView.swift; sourceTree = "<group>"; };
+		0533B54923B65C4B000B4FCD /* ListHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListHeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +78,16 @@
 		0533B51C23B1F152000B4FCD /* HuliPizza */ = {
 			isa = PBXGroup;
 			children = (
+				0533B52123B1F152000B4FCD /* ContentView.swift */,
+				0533B53923B2D460000B4FCD /* ContentHeaderView.swift */,
+				0533B54123B54064000B4FCD /* PageTitleView.swift */,
+				0533B54923B65C4B000B4FCD /* ListHeaderView.swift */,
+				0533B53423B2CD99000B4FCD /* OrderView */,
+				0533B53323B2CD8C000B4FCD /* MenuView */,
+				0533B53223B2CD7D000B4FCD /* Model */,
+				0533B53123B2CD5D000B4FCD /* HistoryView */,
 				0533B51D23B1F152000B4FCD /* AppDelegate.swift */,
 				0533B51F23B1F152000B4FCD /* SceneDelegate.swift */,
-				0533B52123B1F152000B4FCD /* ContentView.swift */,
 				0533B52323B1F153000B4FCD /* Assets.xcassets */,
 				0533B52823B1F153000B4FCD /* LaunchScreen.storyboard */,
 				0533B52B23B1F153000B4FCD /* Info.plist */,
@@ -73,6 +102,42 @@
 				0533B52623B1F153000B4FCD /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0533B53123B2CD5D000B4FCD /* HistoryView */ = {
+			isa = PBXGroup;
+			children = (
+				0533B54323B5702D000B4FCD /* PizzaHistoryView.swift */,
+				0533B54523B57405000B4FCD /* HistoryListView.swift */,
+				0533B54723B5769C000B4FCD /* HistoryRowView.swift */,
+			);
+			path = HistoryView;
+			sourceTree = "<group>";
+		};
+		0533B53223B2CD7D000B4FCD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0533B53323B2CD8C000B4FCD /* MenuView */ = {
+			isa = PBXGroup;
+			children = (
+				0533B53723B2D2FC000B4FCD /* MenuListView.swift */,
+				0533B53D23B53CD7000B4FCD /* MenuRowView.swift */,
+				0533B53F23B53DDD000B4FCD /* RatingView.swift */,
+			);
+			path = MenuView;
+			sourceTree = "<group>";
+		};
+		0533B53423B2CD99000B4FCD /* OrderView */ = {
+			isa = PBXGroup;
+			children = (
+				0533B53523B2CDD3000B4FCD /* OrderListView.swift */,
+				0533B53B23B538FF000B4FCD /* OrderRowView.swift */,
+			);
+			path = OrderView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,7 +212,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				0533B51E23B1F152000B4FCD /* AppDelegate.swift in Sources */,
+				0533B53823B2D2FC000B4FCD /* MenuListView.swift in Sources */,
+				0533B54223B54064000B4FCD /* PageTitleView.swift in Sources */,
+				0533B53623B2CDD3000B4FCD /* OrderListView.swift in Sources */,
+				0533B54023B53DDD000B4FCD /* RatingView.swift in Sources */,
+				0533B53A23B2D460000B4FCD /* ContentHeaderView.swift in Sources */,
+				0533B53E23B53CD7000B4FCD /* MenuRowView.swift in Sources */,
+				0533B54A23B65C4B000B4FCD /* ListHeaderView.swift in Sources */,
 				0533B52023B1F152000B4FCD /* SceneDelegate.swift in Sources */,
+				0533B54823B5769C000B4FCD /* HistoryRowView.swift in Sources */,
+				0533B54423B5702D000B4FCD /* PizzaHistoryView.swift in Sources */,
+				0533B53C23B538FF000B4FCD /* OrderRowView.swift in Sources */,
+				0533B54623B57405000B4FCD /* HistoryListView.swift in Sources */,
 				0533B52223B1F152000B4FCD /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

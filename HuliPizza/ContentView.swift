@@ -10,12 +10,25 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, World!")
+        VStack {
+            ContentHeaderView()
+            PageTitleView(title: "Order Pizza")
+            MenuListView()
+            OrderListView()
+            Spacer()
+        }
+        .padding()
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        Group {
+            ContentView()
+            ContentView()
+                .colorScheme(.dark)
+                .background(Color.black)
+                .previewDevice("iPad Pro (12.9-inch) (3rd generation)")
+        }
     }
 }
