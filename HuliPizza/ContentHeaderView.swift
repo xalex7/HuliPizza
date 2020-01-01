@@ -14,8 +14,12 @@ struct ContentHeaderView: View {
             ZStack {
                 Image("Surf Board")
                     .resizable()
+                    .frame(minWidth: 300, idealWidth: 500, maxWidth: 600, minHeight: 75, idealHeight: 143, maxHeight: 150, alignment: .center)
+                
                     .scaledToFit()
+//                    .scaledToFill()
                 Text("Huli Pizza Company")
+                    .offset(x: -20, y:30)
                     .font(Font.custom("Avinir-Black", size: 20))
                     .foregroundColor(.white)
             }
@@ -25,8 +29,13 @@ struct ContentHeaderView: View {
 
 struct ContentHeaderView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentHeaderView()
-            .environment(\.sizeCategory, .accessibilityExtraExtraLarge) // Did not effect the font because the font has the custome midifier;
+        Group {
+            ContentHeaderView()
+                .environment(\.sizeCategory, .accessibilityExtraExtraLarge)
+            ContentHeaderView()
+            .previewDevice("iPad mini 4")
+        }
+        
     }
 }
 

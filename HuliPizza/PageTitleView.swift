@@ -11,9 +11,19 @@ import SwiftUI
 struct PageTitleView: View {
     var title: String
     var body: some View {
-        Text(title)
-            .font(.largeTitle)
-            .fontWeight(.light)
+        HStack {
+            Text(title)
+                .font(.largeTitle)
+                .fontWeight(.light)
+            Spacer()
+        }
+    .overlay(
+            Image(systemName: "chevron.down.square")
+                .font(.title)
+        .padding()
+        , alignment: .trailing
+        )
+        
     }
 }
 
